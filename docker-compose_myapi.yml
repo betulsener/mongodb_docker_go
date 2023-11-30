@@ -1,0 +1,10 @@
+services:
+  api:
+    image: myapi:3
+    ports:
+      - "82:8080"
+      
+
+networks:
+  mgmt:
+    driver: bridge
